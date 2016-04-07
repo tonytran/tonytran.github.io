@@ -1699,7 +1699,7 @@ section.special, article.special {
 }
 
 header p {
-    color: darkred;
+    color: #009999;
     position: relative;
     margin: 0 0 1.6875em 0;
 }
@@ -1725,7 +1725,7 @@ header h6 + p {
 }
 
 header.major h2 {
-    color: darkred;
+    color: #009999;
     font-size: 3.5em;
 }
 
@@ -1788,7 +1788,8 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-    border-color: darkred;
+    border-color: #009999;
+
 }
 
 .select-wrapper {
@@ -1898,7 +1899,7 @@ input[type="radio"]:checked + label:before {
 
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-    border-color: darkred;
+    border-color: #009999;
 }
 
 input[type="checkbox"] + label:before {
@@ -2091,7 +2092,7 @@ ul.feature-icons li:before {
 }
 
 ul.feature-icons li:before {
-    background: darkred;
+    background: #009999;
     border-radius: 100%;
     color: dimgray;
     display: block;
@@ -2378,7 +2379,7 @@ input[type="submit"].special,
 input[type="reset"].special,
 input[type="button"].special,
 .button.special {
-    background-color: darkred;
+    background-color: #009999;
     color: dimgray !important;
 }
 
@@ -2448,8 +2449,8 @@ input[type="button"]:disabled,
 /* Header */
 
 #header {
-    background: darkred;
-    color: dimgray;
+    background: #009999;
+    color: white;
     height: 100%;
     position: fixed;
     text-align: center;
@@ -2459,19 +2460,19 @@ input[type="button"]:disabled,
 }
 
 #header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-    color: dimgray;
+    color: white;
 }
 
 #header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-    color: dimgray;
+    color: white;
 }
 
 #header header p {
-    color: dimgray;
+    color: white;
 }
 
 #header a {
-    color: dimgray;
+    color: white;
 }
 
 #header a:hover {
@@ -2494,7 +2495,7 @@ input[type="button"]:disabled,
 }
 
 #header > header p {
-    color: dimgray;
+    color: white;
     font-style: italic;
     margin: 1em 0 0 0;
 }
@@ -2555,7 +2556,7 @@ input[type="button"]:disabled,
 /* Main */
 
 #main > section {
-    border-top: solid 6px dimgray;
+    border-top: solid 6px #009999;
 }
 
 #main > section > .container {

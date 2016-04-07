@@ -2459,7 +2459,7 @@ input[type="button"]:disabled,
     right: 0;
 }
 
-#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
+#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header li {
     color: white;
 }
 
@@ -2523,7 +2523,7 @@ input[type="button"]:disabled,
 }
 
 #header > nav ul li {
-    border-top: solid 2px dimgray;
+    border-top: solid 2px white;
     display: block;
     padding: 0;
 }
@@ -2534,7 +2534,7 @@ input[type="button"]:disabled,
     -ms-transition: none;
     transition: none;
     border: 0;
-    color: dimgray !important;
+    color: white !important;
     display: block;
     padding: 0.85em 0;
     text-decoration: none;
@@ -2583,7 +2583,7 @@ input[type="button"]:disabled,
 /* Footer */
 
 #footer {
-    background: dimgray;
+    background: white;
     border-top: 0;
     color: #696969;
     overflow: hidden;
@@ -2597,7 +2597,7 @@ input[type="button"]:disabled,
 }
 
 #footer .copyright li {
-    border-left: solid 1px dimgray;
+    border-left: solid 1px white;
     display: inline-block;
     font-size: 0.8em;
     margin-left: 1em;
@@ -2777,12 +2777,12 @@ input[type="button"]:disabled,
         width: 100%;
         z-index: 10001;
         background: #222;
-        color: dimgray;
+        color: white;
         min-width: 320px;
     }
 
     #titleBar .title {
-        color: dimgray;
+        color: white;
         display: block;
         font-weight: 700;
         height: 44px;
@@ -2819,7 +2819,7 @@ input[type="button"]:disabled,
 
     #titleBar .toggle:before {
         background: darkred;
-        color: dimgray;
+        color: white;
         content: '\f0c9';
         display: block;
         font-size: 18px;

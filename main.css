@@ -1554,7 +1554,7 @@ body {
 }
 
 body, input, select, textarea {
-    color: dimgray;
+    color: #00cc99;
     font-family: "Lato", sans-serif;
     font-size: 16pt;
     font-weight: 400;
@@ -1566,7 +1566,7 @@ a {
     -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    border-bottom: solid 1px dimgray;
+    border-bottom: solid 1px #00cc99;
     color: inherit;
     text-decoration: none;
 }
@@ -1577,7 +1577,7 @@ a:hover {
 }
 
 strong, b {
-    color: #777;
+    color: #009999;
     font-weight: 700;
 }
 
@@ -1590,7 +1590,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #777;
+    color: #009999;
     font-weight: 700;
     line-height: 1em;
     margin: 0 0 0.5625em 0;
@@ -1641,7 +1641,7 @@ sup {
 
 hr {
     border: 0;
-    border-bottom: solid 2px dimgray;
+    border-bottom: solid 2px #00cc99;
     margin: 2.25em 0;
 }
 
@@ -1650,7 +1650,7 @@ hr.major {
 }
 
 blockquote {
-    border-left: solid 8px dimgray;
+    border-left: solid 8px #00cc99;
     font-style: italic;
     margin: 0 0 2.25em 0;
     padding: 0.5em 0 0.5em 2em;
@@ -1659,7 +1659,7 @@ blockquote {
 code {
     background: #555;
     border-radius: 5px;
-    color: dimgray;
+    color: #00cc99;
     font-family: "Source Code Pro", monospace;
     font-size: 0.9em;
     margin: 0 0.25em;
@@ -1730,7 +1730,7 @@ header.major h2 {
 }
 
 header.major h2 + p {
-    color: #777;
+    color:  #009999;
     font-size: 1.75em;
     font-weight: 700;
     margin-top: -0.75em;
@@ -1743,7 +1743,7 @@ form {
 }
 
 label {
-    color: #777;
+    color:  #009999;
     display: block;
     font-size: 0.9em;
     font-weight: 700;
@@ -1766,7 +1766,7 @@ textarea {
     appearance: none;
     border-radius: 5px;
     border: none;
-    border: solid 2px dimgray;
+    border: solid 2px #00cc99;
     color: inherit;
     display: block;
     outline: 0;
@@ -1808,7 +1808,7 @@ textarea:focus {
 }
 
 .select-wrapper:before {
-    color: dimgray;
+    color: #00cc99;
     content: '\f078';
     display: block;
     height: 2.75em;
@@ -1877,7 +1877,7 @@ input[type="checkbox"] + label:before,
 input[type="radio"] + label:before {
     background: white;
     border-radius: 5px;
-    border: solid 2px dimgray;
+    border: solid 2px #00cc99;
     content: '';
     display: inline-block;
     height: 1.65em;
@@ -1892,8 +1892,8 @@ input[type="radio"] + label:before {
 input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
     background: white;
-    border-color: dimgray;
-    color: dimgray;
+    border-color: #00cc99;
+    color: #00cc99;
     content: '\f00c';
 }
 
@@ -1911,31 +1911,31 @@ input[type="radio"] + label:before {
 }
 
 ::-webkit-input-placeholder {
-    color: dimgray !important;
+    color: #00cc99 !important;
     font-style: italic;
     opacity: 1.0;
 }
 
 :-moz-placeholder {
-    color: dimgray !important;
+    color: #00cc99 !important;
     font-style: italic;
     opacity: 1.0;
 }
 
 ::-moz-placeholder {
-    color: dimgray !important;
+    color: #00cc99 !important;
     font-style: italic;
     opacity: 1.0;
 }
 
 :-ms-input-placeholder {
-    color: dimgray !important;
+    color: #00cc99 !important;
     font-style: italic;
     opacity: 1.0;
 }
 
 .formerize-placeholder {
-    color: dimgray !important;
+    color: y#00cc99 !important;
     font-style: italic;
     opacity: 1.0;
 }
@@ -1944,7 +1944,7 @@ input[type="radio"] + label:before {
 
 .box {
     border-radius: 5px;
-    border: solid 2px dimgray;
+    border: solid 2px #00cc99;
     margin-bottom: 2.25em;
     padding: 1.5em;
 }
@@ -2058,7 +2058,7 @@ ul.alt {
 }
 
 ul.alt li {
-    border-top: solid 2px dimgray;
+    border-top: solid 2px #00cc99;
     padding: 0.5em 0;
 }
 
@@ -2094,7 +2094,7 @@ ul.feature-icons li:before {
 ul.feature-icons li:before {
     background: #009999;
     border-radius: 100%;
-    color: dimgray;
+    color: #00cc99;
     display: block;
     height: 2.5em;
     left: 0;
@@ -2208,7 +2208,7 @@ table {
 }
 
 table tbody tr {
-    border: solid 2px dimgray;
+    border: solid 2px #00cc99;
     border-left: 0;
     border-right: 0;
 }
@@ -2222,7 +2222,7 @@ table td {
 }
 
 table th {
-    color: #777;
+    color:  #009999;
     font-size: 0.9em;
     font-weight: 700;
     padding: 0 0.75em 0.75em 0.75em;
@@ -2230,11 +2230,11 @@ table th {
 }
 
 table thead {
-    border-bottom: solid 4px dimgray;
+    border-bottom: solid 4px #00cc99;
 }
 
 table tfoot {
-    border-top: solid 4px dimgray;
+    border-top: solid 4px #00cc99;
 }
 
 table.alt {
@@ -2242,7 +2242,7 @@ table.alt {
 }
 
 table.alt tbody tr td {
-    border: solid 2px dimgray;
+    border: solid 2px #00cc99;
     border-left-width: 0;
     border-top-width: 0;
 }
@@ -2280,7 +2280,7 @@ input[type="button"],
     background-color: white;
     border-radius: 5px;
     border: 0;
-    color: darkgray !important;
+    color: #00cc99 !important;
     cursor: pointer;
     display: inline-block;
     font-weight: 700;
@@ -2349,8 +2349,8 @@ input[type="reset"].alt,
 input[type="button"].alt,
 .button.alt {
     background-color: transparent;
-    box-shadow: inset 0 0 0 2px dimgray;
-    color: #777 !important;
+    box-shadow: inset 0 0 0 2px #00cc99;
+    color:  #009999 !important;
 }
 
 input[type="submit"].alt:hover,
@@ -2358,7 +2358,7 @@ input[type="reset"].alt:hover,
 input[type="button"].alt:hover,
 .button.alt:hover {
     background-color: dimgray;
-    color: #777 !important;
+    color:  #009999 !important;
 }
 
 input[type="submit"].alt:active,
@@ -2570,7 +2570,7 @@ input[type="button"]:disabled,
 /* One */
 
 #one:before {
-    background-image: url("images/banner.jpg");
+    background-color: white;
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2885,17 +2885,21 @@ input[type="button"]:disabled,
     }
 
     /* Section/Article */
+    li {
 
+    }
     header br {
         display: none;
     }
 
     header.major h2 {
         font-size: 2.5em;
+        color : #009999;
     }
 
     header.major h2 + p {
         font-size: 1.5em;
+        color : #009999;
     }
 
     /* Features */

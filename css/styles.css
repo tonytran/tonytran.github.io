@@ -1,13 +1,29 @@
 body {
   background-color: black;
-  color:white;
+  color:gray;
 }
 .list-logo {
   list-style-type: none;
 }
+.about {
+  background-image: url("../images/project-back.png");
+  background-size: cover;
+  font-size: 20px;
+
+  color: white;
+  opacity: .6;
+}
+.showing {
+  display: none;
+}
+
+
 .customnav {
   background-color: black;
 
+}
+#center {
+  text-align: center;
 }
 a {
   color: gray;
@@ -20,22 +36,19 @@ a {
   background-image: url("../images/picforpic2.png");
   background-position: center center;
   background-size: cover;
-opacity: .6;
+  color: white;
+  opacity: .6;
 }
 
 #headingtext{
   text-align: center;
-  color:gray;
+  color: gray;
 }
-.custom > li > a : visited{
-  color: blue;
 
-}
 .custom {
   float: right;
 }
 .profile h1 {
-  color:white;
   text-align: center;
   letter-spacing: .5em;
 }
@@ -51,23 +64,23 @@ opacity: .6;
   background-image: url("../images/picforpic.png");
   background-position: center center;
   height: 300px;
-  background-size:cover;
   color: white;
-    opacity: .6;
+  background-size:cover;
+  opacity: .6;
 }
 .projects2 {
   background-image: url("../images/picforpic.png");
   background-position: center center;
   height: 400px;
-  background-size:cover;
   color: white;
+  background-size:cover;
   opacity: .6;
 }
 .lang {
-  color: white;
   background-image: url("../images/basic.png");
-  background-size:cover
+  background-size:cover;
   opacity: .6;
+  color: white;
 }
 .lang ul{
   list-style-type: none;
@@ -75,20 +88,24 @@ opacity: .6;
 }
 .class {
 background-image: url("../images/container2.png");
- color:white;
- opacity: .6;
+color: gray;
+background-size:cover
+opacity: .6;
+
 }
 .edu {
   background-image: url("../images/project-back.png");
-  opacity: .6;
+
   color: white;
-  background-size:cover
+  opacity: .6;
+  background-size:cover;
 }
 .footer {
   background-image: url("../images/picforpic.png");
-  color:white;
-  background-size:cover
+  background-size:cover;
   opacity: .6;
+  color: white;
+
 }
 .customnav {
   float: right;

@@ -12,12 +12,14 @@ body {
 a {
   color: gray;
 }
-
+.img-circle {
+  background=image:url("../images/me2.jpg");
+  z-index: 1;
+}
 .profile {
   background-image: url("../images/picforpic2.png");
   background-position: center center;
-  height: 400px;
-  width: 1120px;
+  background-size: cover;
 opacity: .6;
 }
 
@@ -27,6 +29,10 @@ opacity: .6;
 }
 .custom > li > a : visited{
   color: blue;
+
+}
+.custom {
+  float: right;
 }
 .profile h1 {
   color:white;
@@ -45,7 +51,7 @@ opacity: .6;
   background-image: url("../images/picforpic.png");
   background-position: center center;
   height: 300px;
-  width: 1200px;
+  background-size:cover;
   color: white;
     opacity: .6;
 }
@@ -53,14 +59,14 @@ opacity: .6;
   background-image: url("../images/picforpic.png");
   background-position: center center;
   height: 400px;
-  width: 1200px;
+  background-size:cover;
   color: white;
   opacity: .6;
 }
 .lang {
   color: white;
   background-image: url("../images/basic.png");
-  width: 1200px;
+  background-size:cover
   opacity: .6;
 }
 .lang ul{
@@ -76,11 +82,14 @@ background-image: url("../images/container2.png");
   background-image: url("../images/project-back.png");
   opacity: .6;
   color: white;
-  width: 1200px;
+  background-size:cover
 }
 .footer {
   background-image: url("../images/picforpic.png");
   color:white;
-  width: 1200px;
+  background-size:cover
   opacity: .6;
+}
+.customnav {
+  float: right;
 }

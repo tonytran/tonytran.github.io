@@ -2,16 +2,18 @@ body {
   background-color: black;
   color:gray;
 }
+
+.container {
+  color: white;
+  background-size: cover;
+  opacity: .6;
+}
 .list-logo {
   list-style-type: none;
 }
 .about {
   background-image: url("../images/project-back.png");
-  background-size: cover;
   font-size: 20px;
-
-  color: white;
-  opacity: .6;
 }
 .showing {
   display: none;
@@ -21,6 +23,10 @@ body {
 .customnav {
   background-color: black;
 
+}
+
+li:hover + div {
+  display: block;
 }
 #center {
   text-align: center;
@@ -72,15 +78,10 @@ a {
   background-image: url("../images/picforpic.png");
   background-position: center center;
   height: 400px;
-  color: white;
-  background-size:cover;
-  opacity: .6;
 }
 .lang {
   background-image: url("../images/basic.png");
-  background-size:cover;
-  opacity: .6;
-  color: white;
+
 }
 .lang ul{
   list-style-type: none;
@@ -88,25 +89,17 @@ a {
 }
 .class {
 background-image: url("../images/container2.png");
-color: gray;
-background-size:cover
-opacity: .6;
 
 }
 .edu {
   background-image: url("../images/project-back.png");
 
-  color: white;
-  opacity: .6;
-  background-size:cover;
 }
 .footer {
   background-image: url("../images/picforpic.png");
-  background-size:cover;
-  opacity: .6;
-  color: white;
+
 
 }
 .customnav {
-  float: right;
+  background-color: black;
 }
